@@ -52,6 +52,7 @@ a {
 
 .section {
     padding: 100px 0;
+    scroll-margin-top: 100px;
 }
 
 .section-subtitle {
@@ -336,12 +337,7 @@ a {
 .about-content strong {
     color: #444;
 }
-#about::before {
-    content: "";
-    display: block;
-    height: 100px;
-    margin-top: -100px;
-}
+
 
 .about-divider {
     width: 100%;

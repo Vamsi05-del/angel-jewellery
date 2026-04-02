@@ -140,25 +140,15 @@ a {
 }
 
 .brand-logo {
-     font-size: 1.8rem;
-    color: var(--primary-color);
-    font-weight: 700;
-    display: inline-flex;   /* ✅ IMPORTANT FIX */
+     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    font-weight: 700
 }
-.brand-logo::before {
-    content: "";
-    
-    width: 55px;   /* 🔥 increase size */
+.logo-img {
     height: 55px;
-
-    background-image: url("https://res.cloudinary.com/dupmqapmd/image/upload/v1774550140/Screenshot_2026-03-27_at_12.04.25_AM_fhwniv.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    display: inline-block; /* ✅ FIX alignment */
 }
 .nav-links {
     display: flex;
@@ -825,8 +815,7 @@ a {
 }
 }
 @media screen and (max-width: 600px) {
-    .brand-logo::before {
-        width: 40px;
+    .logo-img {
         height: 40px;
     }
-}s
+}

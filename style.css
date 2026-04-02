@@ -138,6 +138,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+     padding-left: 10px;   /* reduce from default */
+    padding-right: 20px;
 }
 
 .brand-logo {

@@ -160,6 +160,7 @@ a {
     font-size: 1rem;
     position: relative;
     transition: var(--transition);
+     color: var(--text-main);
 }
 
 .nav-links a:hover, .nav-links a.active {
